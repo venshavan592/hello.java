@@ -17,4 +17,5 @@ jobs:
       - name: maven version
         run: mvn -version
       - name: docker version
-        run: docker -v
+        run: dockerv
+         curl -v -u admin:admin -T /home/runner/work/spring3-mvc-maven-xml-hello-world/spring3-mvc-maven-xml-hello-world/target/spring3-mvc-maven-xml-hello-world-1.0-SNAPSHOT.war'ec2-15-206-81-17.ap-south-1.compute.amazonaws.com:8080/manager/text/deploy?path=/github_action_spring'
